@@ -1,0 +1,241 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+*{
+	box-sizing: border-box;
+}
+/************** HEADER ***************/
+header{
+	background-color: red;
+	height: 138px;
+}
+header h1{
+	text-align: center;
+	margin: 0;
+	padding: 20px;
+	height: 80px;
+}
+ul, li{
+	margin: 0;
+	padding: 0;
+}
+ul{
+	font-size: 0;
+	position: absolute;
+	right: 0;
+	height: 100%;
+}
+li{
+	display:inline-block;
+}
+li a{
+	display: block;
+	background-color: blue;
+	padding: 20px;
+	font-size: 16px;
+	text-decoration: none;
+	font-weight: 800;
+	color: red;
+}
+li a:hover{
+	background-color: red;
+	color: blue;
+}
+#menu{
+	background-color: blue;
+	position: relative;
+	width: 100%;
+	margin-top: 10px;
+	height: 58px;
+}
+/************** HEADER END***************/
+
+/************** ACCUEIL ***************/
+.accueil{
+	text-align: center;
+	min-height: 65vh;
+}
+.realisations_accueil .card_container{
+ 	box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.2);
+ 	border-radius: 10px;
+ 	height: 200px;
+ 	width: 150px;
+ 	background-size: cover;
+ 	position: relative;
+ 	display: inline-block;
+ 	margin: 20px;
+}
+.realisations_accueil .card_container:hover{
+ 	box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.4);
+ 	cursor: pointer;
+ }
+.card_title{
+  	background-color: white;
+  	padding: 5px 0;
+  	width: 100%;
+  	border-radius: 10px 10px 0 0;
+  	background-color: black;
+  	color:white;
+}
+.card_description{
+	bottom: 0;
+ 	position:absolute;
+	width: 100%;
+  	background-color: black;
+  	color:white;
+  	border-radius: 0 0 10px 10px;
+}
+.description{
+	padding: 10px;
+	border-top: 2px solid red;
+	margin: auto;
+	border-radius: 10px;
+	width: 70%;
+}
+/************** ACCUEIL END ***************/
+
+/************** SERVICES ***************/
+.services{
+	text-align: center;
+}
+.services_containers{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+.service{
+	width: 40%;
+	text-align: center;
+}
+.img_service{
+	width: 100%;
+	margin-top: 20px;
+}
+/************** SERVICES END ***************/
+
+/************ REALISATIONS *****************/
+.realisations_description{
+	border-top : 3px solid red;
+	border-radius: 10px;
+	margin: auto;
+	margin-bottom: 20px;
+	padding-top:20px;
+	width: 50%;
+}
+.description{
+	text-align: center;
+}
+.realisations{
+	min-height: 50vh;
+	text-align: center;
+}
+.realisations .card_container{
+ 	box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.2);
+ 	border-radius: 10px;
+ 	height: 200px;
+ 	width: 150px;
+ 	background-size: cover;
+ 	position: relative;
+ 	display: inline-block;
+ 	margin: 20px;
+}
+.card_container:hover{
+ 	box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.4);
+ 	cursor: pointer;
+}
+.realisations .card_title{
+  	background-color: black;
+  	color: white;
+  	padding: 5px 0;
+  	width: 100%;
+  	border-radius: 10px 10px 0 0;
+}
+.realisations .card_description{
+	bottom: 0;
+ 	position:absolute;
+	width: 100%;
+  	background-color: black;
+  	color: white;
+  	border-radius: 0 0 10px 10px;
+}				
+/************ REALISATIONS END *****************/
+
+/************ REALISATION *****************/
+.realisation .cards_container_realisation{
+	width: 100%;
+	position: relative;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	margin-top: 30px;
+}
+.realisation .card_container_realisation{
+ 	box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.2);
+ 	border-radius: 10px;
+ 	height: 250px;
+ 	width: 200px;
+ 	background-size: cover;
+ 	margin: 10px 20px 30px 20px ;
+}
+.realisation .card_container_realisation:hover{
+ 	box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.4);
+	cursor:pointer;
+}
+.realisation .description_realisation{
+	width: 80%;
+	margin: auto;
+	padding-top: 10px;
+	border-top: 3px solid red;
+	border-radius: 20px;
+	text-align: center;
+}
+/************ REALISATION END *****************/
+
+/************* CV ****************/
+.cv{
+	text-align: center;
+}
+.cv iframe{
+	margin: 140px 0 40px 0;
+}
+.cv h2{
+	border-bottom: 3px solid red;
+	padding: 20px;
+	width: 150px;
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%, 0 );
+}
+.cv #mon_cv{
+	margin-bottom: 40px;
+	display: block;
+}
+/************* CV END ****************/
+
+/************ CONTACT *****************/
+.contact{
+	min-height: 60vh;
+}
+.contact .coordonnees, .contact .contact_form{
+	display:inline-block;
+	vertical-align: top;
+	width: 45%;
+	padding: 20px;
+}
+/*h2{
+	text-align: center;
+}*/
+.contact .contact_form input{
+	width: 303px;
+	margin-bottom: 5px	
+}
+/************ CONTACT END *****************/
+
+/*********** FOOTER ******************/
+footer{
+	height: 100px;
+	background-color: blue;
+}
+/*********** FOOTER END ******************/
