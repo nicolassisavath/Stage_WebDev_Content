@@ -1,2 +1,3 @@
 # Stage_WebDev_Content
-Dossier pour donner un aperçu des compétences en html5, css3, JS, jQuery, PHP et MySQL dans l'optique d'utiliser ces connaissances lors d'un stage de développeur web full-stack de 2 mois.
+Ce dossier a pour but de donner un aperçu de mes compétences en html5, css3, JS, jQuery, PHP et MySQL.
+Cela dans l'optique d'utiliser ces connaissances lors d'un stage non rémunéré en tant que développeur web (full-stack) du 8 Janvier 2018 au 14 Mars 2018.
